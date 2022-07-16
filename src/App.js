@@ -13,7 +13,7 @@ function App() {
   
   const [showAddTask, setShowAddTask] = useState(false)
   const [tasks, setTasks] = useState([])
-  const url = "http://proactiff.herokuapp.com/api/tasks/";
+  const url = "https://proactiff.herokuapp.com/api/tasks/";
 
   useEffect(() => {
     fetchTasks()
